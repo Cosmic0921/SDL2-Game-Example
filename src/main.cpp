@@ -36,8 +36,8 @@ SDL_Rect positionRect;
 bool quit = false;
 bool falling = true;
 
-int SCREEN_WIDTH = 640; //640;
-int SCREEN_HEIGHT = 480;//480;
+int SCREEN_WIDTH = 1920;
+int SCREEN_HEIGHT = 1080;
 
 double dt = 10; //The interval between updating the physics. IE update physics every 100th of a second
 double currentTime = SDL_GetTicks(); // in miliseconds
